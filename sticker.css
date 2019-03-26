@@ -8,6 +8,40 @@ img {
     margin: 0;
 }
 
+#header a {
+    font-family: 'Oswald', sans-serif;
+    color: rgba(255, 255, 255, 0.87);
+}
+
+
+
+.navMenu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.navMenu a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+
+.menuNav p {
+    font-size: 2.3rem;
+    font-family: 'Oswald', sans-serif;
+    color: rgba(0, 0, 0, 0.7);
+
+}
+
+.navMenu img {
+    float: left;
+    width: 18vw;
+    height: 5vw;
+}
+
+
+
 #sticker {
     width: 726px;
     height: 726px;
@@ -32,12 +66,19 @@ img {
     margin: 0;
 }
 
+.splash h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    padding: 0px;
+}
+
 
 
 .colorBox {
     position: absolute;
     width: 100vw;
-    height: 50.25vw;
+    height: 56.25vw;
     background-image: linear-gradient(rgba(146, 147, 145, 0.64), rgba(3, 3, 3, 0.8));
 }
 
@@ -47,7 +88,37 @@ img {
     height: 18vw;
     width: 40vw;
     left: 0;
-    top: 32.25vw;
+    top: 36.25vw;
+}
+
+@media screen and (max-width: 1000px) {
+    .infoBox {
+        height: 18vw;
+        width: 40vw;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .infoBox {
+        height: 18vw;
+        width: 45vw;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .infoBox {
+        height: 18vw;
+        width: 100vw;
+        top: 38.25vw;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .infoBox {
+        height: 26vw;
+        width: 100vw;
+        top: 30.25vw;
+    }
 }
 
 .infoBox p {
@@ -58,12 +129,121 @@ img {
     line-height: 40px;
 }
 
+@media screen and (max-width: 1400px) {
+    .infoBox p {
+        font-size: 1.5rem;
+        line-height: 40px;
+        margin: 40px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .infoBox p {
+        font-size: 1.4rem;
+        line-height: 40px;
+        margin: 30px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .infoBox p {
+        font-size: 1.2rem;
+        line-height: 30px;
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .infoBox p {
+        font-size: 1rem;
+        line-height: 20px;
+        margin: 15px;
+    }
+}
+
+@media screen and (max-width: 905px) {
+    .infoBox p {
+        font-size: .9rem;
+        line-height: 22px;
+        margin: 15px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .infoBox p {
+        text-align: center;
+        font-size: 1.1rem;
+        line-height: 22px;
+        margin: 15px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .infoBox p {
+        font-size: 1.2rem;
+        line-height: 22px;
+        margin: 5px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .infoBox p {
+
+        font-size: 1.1rem;
+        line-height: 22px;
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .infoBox p {
+
+        font-size: .9rem;
+        line-height: 22px;
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .infoBox p {
+
+        font-size: .9rem;
+        line-height: 18px;
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .infoBox h1 {
+        font-size: 1.8rem;
+        margin: 10px;
+
+    }
+}
+
+
 .banner {
-    height: 28vw;
+    height: 56vw;
     width: 100vw;
     background: #F2F0F0;
     text-align: center;
 
+}
+
+@media screen and (max-width: 900px) {
+    .banner {
+        height: 50vw;
+        width: 100vw;
+
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .banner {
+        height: 60vw;
+        width: 100vw;
+
+    }
 }
 
 .banner h1 {
@@ -76,6 +256,31 @@ img {
 
 }
 
+@media screen and (max-width: 900px) {
+    .banner h1 {
+        font-size: 6rem;
+        margin: 10px;
+
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .banner h1 {
+        font-size: 4rem;
+        margin: 10px;
+
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .banner h1 {
+        color: red;
+        font-size: 3rem;
+        margin: 5px;
+
+    }
+}
+
 .banner p {
     font-family: 'Oswald', sans-serif;
     margin: 30px;
@@ -84,8 +289,47 @@ img {
 
 }
 
+.banner img {
+    height: 15vw;
+    width: 20vw;
+}
+
+@media screen and (max-width: 750px) {
+    .banner p {
+        font-size: 1.3rem;
+        margin: 20px;
+
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .banner p {
+        font-size: 1.3rem;
+        margin: 20px;
+
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .banner p {
+        font-size: 1rem;
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .banner p {
+
+        font-size: .9rem;
+        margin: 2px;
+
+    }
+}
+
+
+
 #nominering {
-    height: 28vw;
+    height: 56.25vw;
     width: 100vw;
     background: #8E8C8C;
     text-align: center;
@@ -94,17 +338,33 @@ img {
 
 #nominering h1 {
     margin: 0;
-    padding: 10px;
-    font-size: 8rem;
+    padding: 5px;
+    font-size: 6rem;
     color: white;
     font-family: 'Oswald', sans-serif;
 }
 
 #nominering h2 {
-    padding: 10px;
-    font-size: 3rem;
+    padding: 5px;
+    font-size: 2rem;
     color: white;
     font-family: 'Oswald', sans-serif;
+}
+
+#nominering img {
+    position: absolute;
+    right: 5vw;
+    width: 40vw;
+    height: 40vw;
+}
+
+#nominering .nyhedsBox {
+    border: 1px solid white;
+    height: 35vw;
+    width: 40vw;
+    background-color: white;
+    border-radius: 10%;
+
 }
 
 #logo {
@@ -124,9 +384,11 @@ img {
     }
 }
 
+
 .menuNav {
     display: flex;
     justify-content: center;
+    z-index: 99;
 }
 
 button {
@@ -213,32 +475,56 @@ button {
 }
 
 #logo-menu {
+    position: fixed;
     background-image: url(burger-menu.png);
     background-repeat: no-repeat;
     height: 3vw;
     width: 3vw;
-    margin: 20px;
-
+    margin: 0px;
+    z-index: 25;
 }
 
-.instruktioner {
-    margin: 10vw;
+@media screen and (max-height:0px) {
+    #logo-menu {
+        display: none;
+    }
 }
 
-.instruktioner h1 {
+
+.navMenu {
+    position: fixed;
     padding: 10px;
+    width: 100vw;
+    height: 5vw;
+    z-index: 1;
+}
+
+.navMenu:hover {
+    background: rgba(0, 0, 0, 0.45);
+
+}
+
+#instruktioner {
+    height: 56.25vw;
+    width: 100vw;
+}
+
+#instruktioner h1 {
+    padding: 10vw 30vw 0vw 10vw;
     font-size: 3rem;
     color: rgba(0, 0, 0, 0.81);
     font-family: 'Oswald', sans-serif;
 }
 
-.instruktioner h2 {
+#instruktioner h2 {
+    padding: 0vw 10vw 0vw 20vw;
     font-size: 5rem;
     font-family: 'Oswald', sans-serif;
     color: rgba(0, 0, 0, 0.71);
 }
 
-.instruktioner p {
+#instruktioner p {
+    padding: 0vw 10vw 0vw 10vw;
     font-size: 1.5rem;
     font-family: 'Oswald', sans-serif;
 }

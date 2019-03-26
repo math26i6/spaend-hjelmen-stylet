@@ -13,18 +13,20 @@
 
          document.querySelector("#ny_texture").addEventListener("click", newTexture);
 
+         document.querySelector("#logo-menu").addEventListener("click", openNav);
+
      }
 
 
 
 
      function openNav() {
-         document.getElementById("header").style.width = "250px";
+         document.querySelector("#header").style.width = "250px";
          document.getElementById("container").style.marginLeft = "250px";
      }
 
      function closeNav() {
-         document.getElementById("header").style.width = "0";
+         document.querySelector("#header").style.width = "0";
          document.getElementById("container").style.marginLeft = "0";
      }
      // document.querySelector("#farve_tilbage").addEventListener("click", farve2);
