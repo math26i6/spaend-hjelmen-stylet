@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="sticker.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900" rel="stylesheet">
+</head>
+
+<body>
+    <span onclick="openNav()">
+        <div id="logo-menu"></div>
+    </span>
+
+    <div class="splash">
+        <div class="colorBox"></div>
+        <img src="splash.png" alt="splash">
+        <div class="infoBox">
+            <p>Vind en præmie ved at customize et klister-
+                mærke til dine bedsteforældre. Længere nede
+                På siden kan du gå i gang med dit design!
+            </p>
+        </div>
+    </div>
+
+    <main>
+        <div class="banner">
+            <h1>Spænd Hjelmen</h1>
+            <p>Her på siden kan du customize dit eget klistermærke til din bedsteforældre. På den måde kan du være med til at vi passer
+                bedre på hinanden i trafikken og derigennem kan du blive nomineret til årets bedste barnebarn</p>
+        </div>
+
+        <section class="instruktioner">
+            <h1>instruktioner</h1>
+            <h2>lav dit eget klistermærke!</h2>
+            <p>An nulla illum ab incurreret iis dolore nescius praesentibus. Do enim tempor.
+                Nescius nisi laborum, nostrud si dolore sed aliqua sed ullamco, ea cillum irure
+                minim offendit ne offendit labore quorum non labore sed e ubi domesticarum ab
+                incididunt in nisi, commodo nam quem mentitum. Ne ullamco qui proident eu
+                possumus dolore enim officia enim si malis non pariatur do velit laborum
+                praesentibus in ubi consequat consectetur est elit mentitum nam firmissimum,
+                nulla se quibusdam ita enim, minim officia ad offendit. Malis admodum et
+                laboris. Id tamen magna quis senserit. Ita probant aut appellat. Id sint duis
+                sed mandaremus, et nulla ubi labore, quo noster in quis a labore si se velit
+                ullamco ad velit incurreret mandaremus, laboris dolor dolore arbitror dolore ut
+                quem o incurreret, veniam iis nescius.</p>
+        </section>
+
+        <section id="nominering">
+            <h1>Nominering af dit barnebarn</h1>
+            <h2>skal ske via E-mail...</h2>
+        </section>
+    </main>
+
+    <div class="menuNav">
+        <button id="prev_texture">&#8249</button>
+        <p>Mønster</p>
+        <button id="ny_texture" class="filter" data-kategori="alle">&#8250</button>
+        <button id="farve_tilbage">&#8249</button>
+        <p>Mønsterfarve</p>
+        <button id="ny_farve" class="filter" data-kategori="alle">&#8250</button><br>
+        <button id="prev_form">&#8249</button>
+        <p>Bagrundsfarve</p>
+        <button id="ny_form" class="filter" data-kategori="alle">&#8250</button><br>
+        <br>
+    </div>
+
+    <div id="container">
+        <div id="sticker" class="farve1">
+            <div id="logo">
+            </div>
+        </div>
+    </div>
+    <div id="header" class="sidenav">
+        <a href="javascript:void(0)" class="closebutton" onclick="closeNav()">&times;</a>
+        <a href="index.html">Kampagne</a>
+        <a href="#">Video og process</a>
+    </div>
+
+    <script src="sticker.js"></script>
+</body>
+
+</html>

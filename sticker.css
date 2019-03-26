@@ -1,0 +1,244 @@
+body {
+    margin: 0;
+}
+
+
+img {
+    width: 100%;
+    margin: 0;
+}
+
+#sticker {
+    width: 726px;
+    height: 726px;
+    margin: 0 auto;
+    border-radius: 100%;
+    position: relative;
+
+}
+
+@media screen and (max-height: 600px) {
+    #sticker {
+        width: 509px;
+        height: 551px;
+    }
+}
+
+
+.splash {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+
+
+.colorBox {
+    position: absolute;
+    width: 100vw;
+    height: 50.25vw;
+    background-image: linear-gradient(rgba(146, 147, 145, 0.64), rgba(3, 3, 3, 0.8));
+}
+
+.infoBox {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.47);
+    height: 18vw;
+    width: 40vw;
+    left: 0;
+    top: 32.25vw;
+}
+
+.infoBox p {
+    color: white;
+    font-size: 1.8rem;
+    font-family: 'Oswald', sans-serif;
+    margin: 40px;
+    line-height: 40px;
+}
+
+.banner {
+    height: 28vw;
+    width: 100vw;
+    background: #F2F0F0;
+    text-align: center;
+
+}
+
+.banner h1 {
+    margin: 0;
+    padding: 30px;
+    font-size: 8rem;
+    font-family: 'Oswald', sans-serif;
+
+    color: rgba(0, 0, 0, 0.76);
+
+}
+
+.banner p {
+    font-family: 'Oswald', sans-serif;
+    margin: 30px;
+    padding: 10px;
+    font-size: 1.5rem;
+
+}
+
+#nominering {
+    height: 28vw;
+    width: 100vw;
+    background: #8E8C8C;
+    text-align: center;
+    margin: 0;
+}
+
+#nominering h1 {
+    margin: 0;
+    padding: 10px;
+    font-size: 8rem;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+#nominering h2 {
+    padding: 10px;
+    font-size: 3rem;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+#logo {
+    background-image: url(stickers/logo.svg);
+    width: 726px;
+    height: 726px;
+    position: absolute;
+    z-index: 2;
+}
+
+@media screen and (max-height: 600px) {
+    #logo {
+        background-image: url(logo/mikro_sticker.svg);
+        width: 139px;
+        height: 150px;
+
+    }
+}
+
+.menuNav {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin: 1rem;
+    font-size: 5rem;
+    background-color: white;
+    border: none;
+}
+
+.farve1 {
+    background-color: #F7F6DC;
+}
+
+.farve2 {
+    background-color: #9BCCAB;
+}
+
+.farve3 {
+    background-color: #EDB4B4;
+}
+
+
+.cykelfarve1 {
+
+    background-image: url(stickers/cykel_green.svg);
+}
+
+.cykelfarve2 {
+    background-image: url(stickers/cykel_red.svg);
+}
+
+.cykelfarve3 {
+    background-image: url(stickers/cykel_gul.svg);
+}
+
+.tierfarve1 {
+    background-image: url(stickers/tier_green.svg);
+}
+
+.tierfarve2 {
+    background-image: url(stickers/tier_red.svg);
+}
+
+.tierfarve3 {
+    background-image: url(stickers/tier_gul.svg);
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+
+.sidenav .closebutton {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#logo-menu {
+    background-image: url(burger-menu.png);
+    background-repeat: no-repeat;
+    height: 3vw;
+    width: 3vw;
+    margin: 20px;
+
+}
+
+.instruktioner {
+    margin: 10vw;
+}
+
+.instruktioner h1 {
+    padding: 10px;
+    font-size: 3rem;
+    color: rgba(0, 0, 0, 0.81);
+    font-family: 'Oswald', sans-serif;
+}
+
+.instruktioner h2 {
+    font-size: 5rem;
+    font-family: 'Oswald', sans-serif;
+    color: rgba(0, 0, 0, 0.71);
+}
+
+.instruktioner p {
+    font-size: 1.5rem;
+    font-family: 'Oswald', sans-serif;
+}
